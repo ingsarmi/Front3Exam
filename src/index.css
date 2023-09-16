@@ -1,0 +1,187 @@
+/* Reset de estilos y fuentes */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Estilos para código y monoespaciado */
+code {
+  font-family: 'Courier New', Courier, monospace;
+}
+
+/* Estilos para el botón de favoritos */
+.favButton {
+  background-color: rgba(136, 136, 136, 0.116);
+  padding: 10px;
+  border: none;
+  width: 100%;
+  cursor: pointer;
+}
+
+/* Estilos oscuros para el botón de favoritos */
+.dark .favButton {
+  background-color: #12121296;
+  color: white;
+}
+
+/* Estilos para los encabezados */
+h1 {
+  text-align: center;
+}
+
+/* Estilos para la barra de navegación */
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  width: 80%;
+  height: 70px;
+  margin: 0 auto;
+}
+
+/* Estilos para los enlaces de navegación */
+.link-container {
+  padding-top: 25px;
+}
+
+a {
+  color: #000;
+  text-decoration: none;
+  margin: 5px;
+  cursor: pointer;
+}
+
+/* Estilos para los enlaces de navegación al pasar el mouse */
+a:hover {
+  color: rgb(136, 136, 136);
+}
+
+/* Estilos para el pie de página */
+footer {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding: 2rem;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  height: 40px;
+  margin-top: 2rem;
+}
+
+/* Estilos para las divisiones en el pie de página */
+footer div {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+/* Estilos para las imágenes en el pie de página */
+footer div img {
+  width: 200px;
+  margin: 0;
+}
+
+/* Estilos para el texto en el pie de página */
+footer div p {
+  margin: 0;
+  padding-top: 0.7rem;
+}
+
+/* Estilos para formularios */
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 300px;
+  height: 100px;
+  margin: 0 auto;
+}
+
+/* Estilos para las tarjetas */
+.card {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  align-items: center;
+  width: 200px;
+  padding: 0.5rem;
+  border: 0.5px solid rgb(136, 136, 136);
+}
+
+/* Estilos al pasar el mouse sobre las tarjetas */
+.card:hover {
+  border: 0.5px solid rgb(206, 217, 142);
+}
+
+/* Estilos para los enlaces en las tarjetas */
+.card a {
+  text-align: center;
+}
+
+/* Estilos para la cuadrícula de tarjetas */
+.card-grid {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 1rem;
+  width: 90vw;
+  height: auto;
+  flex-wrap: wrap;
+  margin: 0 auto;
+}
+
+/* Estilos para tablas */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+  display: table;
+  border: 1px solid #ccc;
+}
+
+/* Estilos para celdas en tablas */
+td,
+th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+/* Estilos para filas pares en tablas */
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+/* Estilos oscuros */
+.dark {
+  background-color: #12121296;
+  color: white;
+}
+
+/* Estilos oscuros para enlaces */
+.dark > div a {
+  color: white;
+}
+
+/* Estilos oscuros para elementos en el pie de página */
+.dark footer ul li i {
+  color: white;
+}
+
+/* Estilos para listas en el pie de página */
+footer ul {
+  display: flex;
+}
+
+/* Estilos para elementos de lista en el pie de página */
+footer ul li {
+  padding-right: 10px;
+  color: black;
+}
+
+/* Estilos para íconos en elementos de lista */
+footer ul li i {
+  cursor: pointer;
+  color: black;
+}
