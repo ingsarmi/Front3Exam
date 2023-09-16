@@ -19,7 +19,7 @@ Clona este repositorio en tu máquina local utilizando el siguiente comando:
 
 bash
 Copy code
-git clone https://github.com/tuusuario/nombre-del-repo.git
+git clone https://github.com/ingsarmi/Front3Exam.git
 Navega a la carpeta del proyecto:
 
 bash
@@ -36,7 +36,7 @@ Inicia la aplicación en tu entorno local:
 bash
 Copy code
 npm start
-Abre tu navegador y visita la dirección http://localhost:3000 para acceder a la aplicación.
+Abre tu navegador y visita la dirección http://localhost:3000 para acceder a la aplicación o la ofrecida por el sistema.
 
 
 Contribución
